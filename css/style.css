@@ -32,7 +32,6 @@
 html,
 body {
     height: 100%;
-    min-width: 430px;
     font-family: Arial, sans-serif;
     line-height: 1.2;
     display: flex;
@@ -285,6 +284,7 @@ header {
 
     .footer-info p {
         font-size: 12px;
+        letter-spacing: 0;
     }
 
     .footer-social {
@@ -511,6 +511,10 @@ fieldset textarea {
     .background-image {
         top: -120px;
         left: 0;
+    }
+
+    .form-buttons {
+        flex-direction: column;
     }
 }
 
