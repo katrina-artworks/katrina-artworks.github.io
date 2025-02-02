@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ekaterina Gusarova</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Inter&display=swap" rel="stylesheet">
+
+    <!-- Favicon setup -->
+    <link rel="icon" type="image/png" href="my-favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="my-favicon/favicon.svg" />
+    <link rel="shortcut icon" href="my-favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="my-favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="my-favicon/site.webmanifest" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <section class="header-content">
+            <!-- Branding -->
+            <div class="branding">
+                <img src="assets/images/logo.svg" alt="Logo" class="logo" />
+                <div class="site-name">
+                    EKATERINA<br>
+                    GUSAROVA
+                </div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#art">Art</a></li>
+                    <li><a href="#contact" class="active">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Navigation (Hamburger Icon) -->
+            <button class="menu-icon" id="btnOpenMenu" aria-label="Toggle navigation">
+                <img src="assets/images/hamburger.svg" alt="Open Menu" id="hamburgerIcon" />
+                <img src="assets/images/close.svg" alt="Close Menu" id="closeIcon" style="display: none;" />
+            </button>
+        </section>
+
+        <!-- Mobile Navigation (Menu Overlay) -->
+        <div class="mobile-menu-overlay" id="mobileMenu">
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#art">Art</a></li>
+                    <li><a href="#contact" class="active">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main id="content-container">
+        <!-- CONTACT PAGE (Welcoming Info and Contact Form) -->
+        <div class="contact-content">
+            <!-- Gradient Background -->
+            <div class="background-image"></div>
+
+            <!-- INFO BLOCK -->
+            <div class="project-info">
+                <h1 class="contact-title">Want to<br>Start a<br>New Project?</h1>
+                <p class="contact-subtitle">
+                    I'm here to help you design products that connect with users and make an impact.
+                    Let's collaborate to create something meaningful — drop me a message to get started!
+                </p>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <form class="project-form" action="/" method="post">
+                <fieldset>
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
+                    <div class="error-message">
+                        <img src="assets/images/field_error.svg" alt="Error">
+                        <p>Name must be at least 2 characters</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+                    <div class="error-message">
+                        <img src="assets/images/field_error.svg" alt="Error">
+                        <p>Surname must be at least 2 characters</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="jane.doe@gmail.com" required>
+                    <div class="error-message">
+                        <img src="assets/images/field_error.svg" alt="Error">
+                        <p>Invalid email</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select</option>
+                        <option value="can">Canada</option>
+                        <option value="usa">United States</option>
+                    </select>
+                    <div class="error-message">
+                        <img src="assets/images/field_error.svg" alt="Error">
+                        <p>Select country to proceed</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"
+                        placeholder="Hi! I'm interested in starting a new project. Let's discuss how we can collaborate to create something amazing."
+                        required></textarea>
+                    <div class="error-message">
+                        <img src="assets/images/field_error.svg" alt="Error">
+                        <p>Message must be at least 10 characters</p>
+                    </div>
+                </fieldset>
+
+                <div class="form-buttons">
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <button type="button" class="cancel-btn">Cancel</button>
+
+                    <!-- Temporary buttons to demonstrate fields validation -->
+                    <!-- TODO: Delete demo buttons after introducing proper validation logic -->
+                    <button type="button" class="demo-btn" id="showSuccessPopup">Demo Success</button>
+                    <button type="button" class="demo-btn" id="showErrorsBtn">Demo Errors</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- SUCCESS POPUP -->
+        <div class="success-overlay" id="successPopup">
+            <div class="success-popup">
+                <img src="assets/images/form_sent.svg" alt="Success" class="success-icon">
+                <h2>Message received</h2>
+                <p class="success-message">Let's Bring Your Ideas to Life!</p>
+                <p class="success-details">
+                    I'm excited to hear from you! I'll review your message and get in touch soon to discuss your project
+                    and the next steps.
+                </p>
+                <button class="success-close" id="closeSuccess">Done</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- FOOTER MIDDLE (Scrolling Text) -->
+        <section class="footer-middle">
+            <div class="scrolling-text">
+                <span>UI Design /// UX Design /// Let's Create Together /// Brand Identity /// Art /// Message Me To
+                    Know More ///</span>
+                <span>UI Design /// UX Design /// Let's Create Together /// Brand Identity /// Art /// Message Me To
+                    Know More ///</span>
+                <span>UI Design /// UX Design /// Let's Create Together /// Brand Identity /// Art /// Message Me To
+                    Know More ///</span>
+                <span>UI Design /// UX Design /// Let's Create Together /// Brand Identity /// Art /// Message Me To
+                    Know More ///</span>
+                <span>UI Design /// UX Design /// Let's Create Together /// Brand Identity /// Art /// Message Me To
+                    Know More ///</span>
+                <span>UI Design /// UX Design /// Let's Create Together /// Brand Identity /// Art /// Message Me To
+                    Know More ///</span>
+                <span>UI Design /// UX Design /// Let's Create Together /// Brand Identity /// Art /// Message Me To
+                    Know More ///</span>
+                <span>UI Design /// UX Design /// Let's Create Together /// Brand Identity /// Art /// Message Me To
+                    Know More ///</span>
+            </div>
+        </section>
+
+        <!-- FOOTER BOTTOM (Social Networks) -->
+        <section class="footer-bottom">
+            <div class="footer-info">
+                <p>© 2025 Ekaterina Gusarova. All Rights Reserved.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/katrina-gusarova/" target="_blank">
+                    <img src="assets/images/linkedin.svg" alt="LinkedIn" />
+                </a>
+                <a href="https://www.instagram.com/katrina_artworks/" target="_blank">
+                    <img src="assets/images/instagram.svg" alt="Instagram" />
+                </a>
+                <a href="https://www.youtube.com/@katrina_artworks" target="_blank">
+                    <img src="assets/images/youtube.svg" alt="YouTube" />
+                </a>
+                <a href="mailto:hello.katrina.artworks@gmail.com">
+                    <img src="assets/images/email.svg" alt="Email" />
+                </a>
+            </div>
+        </section>
+    </footer>
+
+    <!-- External JS -->
+    <script src="js/menu.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+
+</html>
