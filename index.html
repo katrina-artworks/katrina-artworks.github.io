@@ -8,13 +8,11 @@
     <title>Ekaterina Gusarova</title>
 
     <!-- External CSS -->
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Inter&display=swap" rel="stylesheet">
-
-    <!-- Favicon setup -->
+    <!-- Favicon Setup -->
     <link rel="icon" type="image/png" href="my-favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="my-favicon/favicon.svg" />
     <link rel="shortcut icon" href="my-favicon/favicon.ico" />
@@ -86,7 +84,8 @@
             </div>
 
             <!-- CONTACT FORM -->
-            <form class="project-form" action="/" method="post">
+            <form class="project-form" action="/" method="post" novalidate>
+                <!-- Using 'novalidate' to disable browser validation -->
                 <fieldset>
                     <label for="first-name">First name</label>
                     <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
@@ -141,11 +140,6 @@
                 <div class="form-buttons">
                     <button type="submit" class="submit-btn">Submit</button>
                     <button type="button" class="cancel-btn">Cancel</button>
-
-                    <!-- Temporary buttons to demonstrate fields validation -->
-                    <!-- TODO: Delete demo buttons after introducing proper validation logic -->
-                    <button type="button" class="demo-btn" id="showSuccessPopup">Demo Success</button>
-                    <button type="button" class="demo-btn" id="showErrorsBtn">Demo Errors</button>
                 </div>
             </form>
         </div>
@@ -160,7 +154,7 @@
                     I'm excited to hear from you! I'll review your message and get in touch soon to discuss your project
                     and the next steps.
                 </p>
-                <button class="success-close" id="closeSuccess">Done</button>
+                <button class="success-close" id="closeSuccessPopup">Done</button>
             </div>
         </div>
     </main>
@@ -211,9 +205,13 @@
         </section>
     </footer>
 
+    <!-- Audio Elements -->
+    <audio id="successSound" preload="auto">
+        <source src="assets/sounds/success.mp3" type="audio/mpeg">
+    </audio>
+
     <!-- External JS -->
     <script src="js/menu.js"></script>
-    <script src="js/popup.js"></script>
     <script src="js/validation.js"></script>
 </body>
 

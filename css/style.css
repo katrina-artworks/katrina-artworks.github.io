@@ -1,4 +1,6 @@
-/* RESET & BASE */
+/* 
+ * RESET & BASE
+ */
 * {
     margin: 0;
     padding: 0;
@@ -28,9 +30,9 @@
     --font-weight-bold: 700;
 }
 
-/* Make the page fill height, and place footer at bottom */
 html,
 body {
+    /* Make the page fill height, and place footer at bottom */
     height: 100%;
     font-family: Arial, sans-serif;
     line-height: 1.2;
@@ -49,12 +51,14 @@ ul {
     list-style: none;
 }
 
-/* Main grows to fill space, pushing footer to bottom if content is short */
 main {
+    /* Main grows to fill space, pushing footer to bottom if content is short */
     flex: 1 0 auto;
 }
 
-/* HEADER (sticky) */
+/* 
+ * HEADER (sticky)
+ */
 header {
     position: sticky;
     top: 0;
@@ -63,7 +67,6 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
-/* Header Content */
 .header-content {
     height: 102px;
     display: flex;
@@ -72,7 +75,9 @@ header {
     padding: 42px 42px 20px 42px;
 }
 
-/* Branding */
+/* 
+ * BRANDING
+ */
 .branding {
     display: flex;
     align-items: center;
@@ -99,7 +104,9 @@ header {
     text-align: left;
 }
 
-/* Desktop Navigation */
+/* 
+ * DESKTOP NAVIGATION
+ */
 .desktop-nav ul {
     display: flex;
 }
@@ -121,7 +128,9 @@ header {
     border-top: 1px solid #ccc;
 }
 
-/* Menu Icon (Mobile) */
+/* 
+ * MENU ICON (MOBILE)
+ */
 .menu-icon {
     display: none;
     background: none;
@@ -136,7 +145,9 @@ header {
     height: 23px;
 }
 
-/* Responsive (Tablet & below) */
+/* 
+ * RESPONSIVE DESKTOP NAVIGATION
+ */
 @media (max-width: 890px) {
 
     /* Hide desktop nav */
@@ -194,7 +205,9 @@ header {
     visibility: visible;
 }
 
-/* Mobile Nav */
+/* 
+ * MOBILE NAVIGATION
+ */
 .mobile-nav ul {
     display: flex;
     flex-direction: column;
@@ -212,8 +225,9 @@ header {
     letter-spacing: 2px;
 }
 
-/* FOOTER */
-/* Footer Middle (Scrolling Text) */
+/* 
+ * FOOTER MIDDLE (SCROLLING TEXT)
+ */
 .footer-middle {
     height: 30px;
     width: 100%;
@@ -240,7 +254,9 @@ header {
     gap: 8px;
 }
 
-/* Footer Bottom */
+/* 
+ * FOOTER BOTTOM
+ */
 .footer-bottom {
     height: 88px;
     background-color: var(--highlight-color);
@@ -271,7 +287,9 @@ header {
     object-fit: cover;
 }
 
-/* Responsive Footer */
+/* 
+ * RESPONSIVE FOOTER
+ */
 @media (max-width: 890px) {
     .footer-bottom {
         height: 91px;
@@ -298,7 +316,9 @@ header {
     }
 }
 
-/* MAIN CONTENT - CONTACT PAGE */
+/* 
+ * MAIN CONTENT - CONTACT PAGE
+ */
 .contact-content {
     padding: 80px 20px;
     max-width: 1200px;
@@ -383,6 +403,8 @@ fieldset textarea {
     line-height: 16px;
     letter-spacing: 0;
     text-align: left;
+    /* Remove default browser outline */
+    outline: none;
 }
 
 ::placeholder {
@@ -453,22 +475,6 @@ fieldset textarea {
     transition: all 0.3s ease;
 }
 
-.demo-btn {
-    background-color: #12a4e8;
-    color: white;
-    padding: 8px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: var(--font-primary);
-    font-weight: var(--font-weight-light);
-    font-size: 10px;
-    line-height: 100%;
-    letter-spacing: 0;
-    text-align: center;
-    transition: background 0.3s ease;
-}
-
 .submit-btn:hover {
     background-color: var(--primary-color);
     color: #fff;
@@ -479,11 +485,29 @@ fieldset textarea {
     color: var(--primary-color);
 }
 
-.demo-btn:hover {
-    background-color: #15e0f7;
+/* 
+ * HIGHLIGHT FORM FIELDS ON FOCUS
+ */
+fieldset.focused input,
+fieldset.focused select,
+fieldset.focused textarea {
+    border-color: var(--primary-color);
+    /* Ensure no browser outline appears */
+    outline: none;
+    /* Add a more controlled focus indicator */
+    box-shadow: 0 0 0 1px var(--primary-color);
+    transition: all 0.3s ease;
 }
 
-/* Responsive Contact Section */
+fieldset.focused label {
+    color: var(--primary-color);
+    font-weight: var(--font-weight-semibold);
+    transition: color 0.3s ease;
+}
+
+/* 
+ * RESPONSIVE CONTACT SECTION
+ */
 @media (max-width: 890px) {
     .contact-content {
         flex-direction: column;
@@ -518,7 +542,9 @@ fieldset textarea {
     }
 }
 
-/* SUCCESS OVERLAY */
+/* 
+ * SUCCESS OVERLAY 
+ */
 .success-overlay {
     position: fixed;
     top: 0;
@@ -608,7 +634,9 @@ fieldset textarea {
     animation: fadeInPopup 0.5s ease-out;
 }
 
-/* FORM VALIDATION ERRORS */
+/* 
+ * FORM VALIDATION ERRORS 
+ */
 .error-message {
     display: none;
     align-items: center;
