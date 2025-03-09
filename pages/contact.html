@@ -1,0 +1,88 @@
+<div class="contact-content">
+    <!-- Gradient Background -->
+    <div class="contact-background-image"></div>
+
+    <!-- INFO BLOCK -->
+    <div class="project-info">
+        <h1 class="contact-title">Want to<br>Start a<br>New Project?</h1>
+        <p class="contact-subtitle">
+            I'm here to help you design products that connect with users and make an impact.
+            Let's collaborate to create something meaningful — drop me a message to get started!
+        </p>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <form class="project-form" action="/" method="post" novalidate>
+        <!-- Using 'novalidate' to disable browser validation -->
+        <fieldset>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
+            <div class="error-message">
+                <img src="assets/images/field_error.svg" alt="Error">
+                <p>Name must be at least 3 alphabetical characters</p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+            <div class="error-message">
+                <img src="assets/images/field_error.svg" alt="Error">
+                <p>Surname must be at least 3 alphabetical characters</p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="jane.doe@gmail.com" required>
+            <div class="error-message">
+                <img src="assets/images/field_error.svg" alt="Error">
+                <p>Invalid email</p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="country">Country</label>
+            <select id="country" name="country" required>
+                <option value="">Select</option>
+                <option value="can">Canada</option>
+                <option value="usa">United States</option>
+                <option value="other">Other</option>
+            </select>
+            <div class="error-message">
+                <img src="assets/images/field_error.svg" alt="Error">
+                <p>Select country to proceed</p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"
+                placeholder="Hi! I'm interested in starting a new project. Let's discuss how we can collaborate to create something amazing."
+                required></textarea>
+            <div class="error-message">
+                <img src="assets/images/field_error.svg" alt="Error">
+                <p>Message must be at least 10 characters</p>
+            </div>
+        </fieldset>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn submit-btn">Submit</button>
+            <button type="button" class="btn cancel-btn">Cancel</button>
+        </div>
+    </form>
+</div>
+
+<!-- SUCCESS POPUP -->
+<div class="success-overlay" id="successPopup">
+    <div class="success-popup">
+        <img src="assets/images/form_sent.svg" alt="Success" class="success-icon">
+        <h1>Message received</h1>
+        <p class="success-message">Let's Bring Your Ideas to Life!</p>
+        <p class="success-details">
+            I'm excited to hear from you! I'll review your message and get in touch soon to discuss your project
+            and the next steps.
+        </p>
+        <button class="btn success-close" id="closeSuccessPopup">Done</button>
+    </div>
+</div>
