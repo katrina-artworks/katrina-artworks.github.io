@@ -6,6 +6,7 @@ const contentContainer = document.querySelector('#content-container');
 btnOpenMenu.addEventListener('click', () => {
     mobileMenu.classList.toggle('open');
     btnOpenMenu.classList.toggle('open');
+    document.body.classList.toggle('no-scroll'); // Disable/enable scrolling
 });
 
 // Close mobile menu when a link is clicked using event delegation
@@ -13,6 +14,7 @@ document.querySelector('.mobile-nav ul').addEventListener('click', (event) => {
     if (event.target.tagName === 'A') {
         mobileMenu.classList.remove('open');
         btnOpenMenu.classList.remove('open');
+        document.body.classList.remove('no-scroll'); // Enable scrolling
     }
 });
 
@@ -22,6 +24,7 @@ window.addEventListener('resize', () => {
         // Dismiss mobile menu and reset menu button when window is resized to desktop
         mobileMenu.classList.remove('open');
         btnOpenMenu.classList.remove('open');
+        document.body.classList.remove('no-scroll'); // Enable scrolling
     }
 });
 
@@ -42,10 +45,13 @@ function loadContent(page) {
         })
         .then((data) => {
             contentContainer.innerHTML = data;
+            // Reset scroll position
+            window.scrollTo(0, 0);
+            // Reinitialize scripts based on the loaded page
             if (page === 'contact') {
                 reinitializeValidation();
-            } else if (page === 'about') {
-                reinitializeOnScrollLogic();
+            } else if (page === 'about' || page === 'work') {
+                reinitializeGridLogic();
             }
             setActiveLink(page);
         })
@@ -70,9 +76,9 @@ function reinitializeValidation() {
     document.body.appendChild(script);
 }
 
-function reinitializeOnScrollLogic() {
+function reinitializeGridLogic() {
     const script = document.createElement('script');
-    script.src = 'js/scroll.js';
+    script.src = 'js/grid.js';
     document.body.appendChild(script);
 }
 

@@ -1,32 +1,83 @@
+/* 
+ * Vendor Prefixes: To support older browsers (eg. older versions of Safari or Android browsers),
+ * we're adding vendor prefixes (eg. -webkit-) for the transform property and keyframe declarations. 
+ */
+
 /* Scrolling text keyframe */
-@keyframes scrollText {
+@-webkit-keyframes scrollText {
     0% {
+        -webkit-transform: translateX(0%);
         transform: translateX(0%);
     }
 
     100% {
+        -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollText {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+/* Fade in popup keyframe */
+@-webkit-keyframes fadeInPopup {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
 }
 
 @keyframes fadeInPopup {
     from {
         opacity: 0;
+        -webkit-transform: translateY(-20px);
         transform: translateY(-20px);
     }
 
     to {
         opacity: 1;
+        -webkit-transform: translateY(0);
         transform: translateY(0);
+    }
+}
+
+/* Spinning loading indicator keyframe */
+@-webkit-keyframes spinLoadingIndicator {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
 @keyframes spinLoadingIndicator {
     0% {
+        -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
