@@ -20,6 +20,11 @@ function initializeOnScrollLogic() {
         });
     }
     // Attach the scroll event listener
+
+    if (window._gridScrollHandler) {
+        window.removeEventListener("scroll", window._gridScrollHandler);
+    }
+    window._gridScrollHandler = checkCards;
     window.addEventListener("scroll", checkCards);
     // Immediately run the check in case cards are already in view
     checkCards();
@@ -43,19 +48,7 @@ function initializeOnMouseEnterLogic() {
             // Modify the button as part of the card effect:
             const btn = card.querySelector('.btn-arrow');
             if (btn) {
-                // Fade in the text
-                const btnText = btn.querySelector('.btn-arrow-text');
-                if (btnText) {
-                    btn.style.textDecoration = "underline";
-                    btnText.style.transition = "opacity 0.3s ease";
-                    btnText.style.opacity = "1";
-                }
-            }
-            // Move the arrow from left to right
-            const arrow = card.querySelector('.btn-arrow img');
-            if (arrow) {
-                arrow.style.transition = "transform 0.3s ease";
-                arrow.style.transform = "translateX(0)";
+                btn.style.gap = "10px";
             }
         });
 
@@ -64,18 +57,10 @@ function initializeOnMouseEnterLogic() {
             card.style.transform = "scale(1)";
             card.style.backgroundPosition = "bottom right";
 
-            // Revert the button text style (fade it out)
+            // Revert the button spacing
             const btn = card.querySelector('.btn-arrow');
             if (btn) {
-                const btnText = btn.querySelector('.btn-arrow-text');
-                if (btnText) {
-                    btnText.style.opacity = "0";
-                }
-            }
-            // Revert the arrow to its original left position
-            const arrow = card.querySelector('.btn-arrow img');
-            if (arrow) {
-                arrow.style.transform = "translateX(-90px)";
+                btn.style.gap = "6px";
             }
         });
     });

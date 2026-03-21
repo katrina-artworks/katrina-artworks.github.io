@@ -8,16 +8,15 @@
     <title>EKATERINA GUSAROVA</title>
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animate.css">
 
     <!-- Favicon Setup -->
-    <link rel="icon" type="image/png" href="my-favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="my-favicon/favicon.svg" />
-    <link rel="shortcut icon" href="my-favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="my-favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="my-favicon/site.webmanifest" />
+    <link rel="icon" type="image/png" href="/my-favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/my-favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/my-favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/my-favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="EkaterinaG" />
+    <link rel="manifest" href="/my-favicon/site.webmanifest" />
 </head>
 
 <body>
@@ -25,29 +24,24 @@
     <header>
         <section class="header-content">
             <!-- Branding -->
-            <div class="branding">
-                <img src="assets/images/logo.svg" alt="Logo" class="logo" />
-                <div class="site-name">
-                    EKATERINA<br>
-                    GUSAROVA
-                </div>
-            </div>
+            <a href="#home" data-page="home" class="branding">
+                <img src="assets/images/header-logo.avif" alt="Logo" class="logo" />
+            </a>
 
             <!-- Desktop Navigation -->
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="#about" data-page="about" class="nav-link">About</a></li>
+                    <li><a href="#home" data-page="home" class="nav-link">Home</a></li>
                     <li><a href="#work" data-page="work" class="nav-link">Work</a></li>
+                    <li><a href="#about" data-page="about" class="nav-link">About</a></li>
                     <li><a href="#contact" data-page="contact" class="nav-link">Contact</a></li>
-                    <!-- <li><a href="#resume" data-page="resume" class="nav-link">Resume</a></li> -->
-                    <!-- <li><a href="#art" data-page="art" class="nav-link">Art</a></li> -->
                 </ul>
             </nav>
 
             <!-- Mobile Navigation (Hamburger Icon) -->
             <button class="menu-icon" id="btnOpenMenu" aria-label="Toggle navigation">
-                <img src="assets/images/hamburger.svg" alt="Open Menu" class="hamburger-icon" />
-                <img src="assets/images/close.svg" alt="Close Menu" class="close-icon" />
+                <img src="assets/images/header-hamburger.svg" alt="Open Menu" class="hamburger-icon" />
+                <img src="assets/images/header-close.svg" alt="Close Menu" class="close-icon" />
             </button>
         </section>
 
@@ -55,11 +49,10 @@
         <div class="mobile-menu-overlay" id="mobileMenu">
             <nav class="mobile-nav">
                 <ul>
-                    <li><a href="#about" data-page="about" class="nav-link">About</a></li>
+                    <li><a href="#home" data-page="home" class="nav-link">Home</a></li>
                     <li><a href="#work" data-page="work" class="nav-link">Work</a></li>
+                    <li><a href="#about" data-page="about" class="nav-link">About</a></li>
                     <li><a href="#contact" data-page="contact" class="nav-link">Contact</a></li>
-                    <!-- <li><a href="#resume" data-page="resume" class="nav-link">Resume</a></li> -->
-                    <!-- <li><a href="#art" data-page="art" class="nav-link">Art</a></li> -->
                 </ul>
             </nav>
         </div>
@@ -97,16 +90,16 @@
         <!-- FOOTER BOTTOM (Social Networks) -->
         <section class="footer-bottom">
             <div class="footer-info">
-                <p>© 2025 Ekaterina Gusarova. All Rights Reserved.</p>
+                <p>© 2026 Ekaterina Gusarova. All Rights Reserved.</p>
             </div>
             <div class="footer-social">
-                <a href="https://www.linkedin.com/in/katrina-gusarova/" target="_blank">
+                <a href="https://www.linkedin.com/in/katrina-gusarova/" target="_blank" rel="noopener noreferrer">
                     <img src="assets/images/footer-ln.svg" alt="LinkedIn" />
                 </a>
-                <a href="https://www.instagram.com/katrina_artworks/" target="_blank">
+                <a href="https://www.instagram.com/katrina_artworks/" target="_blank" rel="noopener noreferrer">
                     <img src="assets/images/footer-ig.svg" alt="Instagram" />
                 </a>
-                <a href="https://www.youtube.com/@katrina_artworks" target="_blank">
+                <a href="https://www.youtube.com/@katrina_artworks" target="_blank" rel="noopener noreferrer">
                     <img src="assets/images/footer-yt.svg" alt="YouTube" />
                 </a>
                 <a href="mailto:hello.katrina.artworks@gmail.com">
@@ -120,6 +113,17 @@
     <audio id="successSound" preload="auto">
         <source src="assets/sounds/success.mp3" type="audio/mpeg">
     </audio>
+
+    <!-- Cloudflare Turnstile (explicit render — widget is rendered by validation.js) -->
+    <script>
+        window.turnstileLoaded = false;
+        function onTurnstileLoad() {
+            window.turnstileLoaded = true;
+            console.log('[Turnstile] API ready');
+            if (window.onTurnstileReady) window.onTurnstileReady();
+        }
+    </script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onTurnstileLoad" async defer></script>
 
     <!-- External JS -->
     <script src="js/menu.js"></script>

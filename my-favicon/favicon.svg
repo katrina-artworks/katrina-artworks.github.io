@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1086)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(17.5,0,0,17.5,150,150)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="40" height="40"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern0_239_1449)"></rect>
-<defs>
-<pattern id="pattern0_239_1449" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_239_1449" transform="scale(0.00934579)"></use>
-</pattern>
-<image id="image0_239_1449" width="107" height="107" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAABrCAYAAABwv3wMAAAACXBIWXMAAAsSAAALEgHS3X78AAACDklEQVR4nO3aQW7aUABF0Wc3g85YS/YSFMIq2EHMsDNWgZBI99A9tF2IV0AHoZGiSEkk/x/+NffMwUZXtoz8utPplPVqOSTZJFlErRmT7PaH49A93N8NSR4vfEL62LbP8xWl9m36eOujWPSXPgN9nrFAjAViLBBjgRgLxFggxgIxFoixOEZjcexuLn0G+tDLK5LJsfaHY1fghPQJ3gZBjAViLBBjgRgLxFgg1f9nOXObrNz/rPecQzlzm2aR5HG9Wla/DTpzK2dTO5a3vnKcopEYC8RYIMYCMRaIsUCMBWIsEGOBGAvEWCDGAml6Nzi3mdt6tTxN+bxXFoixQIwFYiwQY4E0/TQ49enpC70skGoexCurjP8LpKHmQYxVVtU1l7HKqrrmMhaIsUCMBWIsEGOBGAvEWCDGAjEWiLHKGmt+ubHK2tX88qZfkYB8ySuSpmPNbd00lbdBEGOBGAvEWCDGAjEWSNOP7k7RXvPKKsMpGpBTNBCnaHpmLBBjgRgLxFggxgIxFoixQIwFUjtW1WlWg9BTtKrTrAZV/b1VY51fGWwz/ytsTLLFT9HOP2CofZxr4AMGiLFAjAViLBBjgRgLpHu4v6PMva6eVxaIsUCMBWIsEGOBGAvEWCDGAjEWiLFAjAViLJA+8x+zzMXY5/rmYlS7b7///P318+nYJblN8v3SZ6Q3xiQ/9ofj8A9uuFhWrHD+1wAAAABJRU5ErkJggg=="></image>
-<clipPath id="SvgjsClipPath1086"><rect width="1000" height="1000" x="0" y="0" rx="250" ry="250"></rect></clipPath></defs>
-</svg></svg></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><g clip-path="url(#clip0_620_1255)">
+<path d="M5.49 15.18H15.37V20.4H5.49C6.52 25.34 10.42 29.25 15.37 30.28V35.58C11.56 35.03 8.04 33.27 5.27 30.5C2.49 27.73 0.74 24.21 0.19 20.4C0.07 19.54 0 18.67 0 17.79C0 16.91 0.06 16.04 0.19 15.18C0.74 11.37 2.5 7.85 5.27 5.08C8.04 2.31 11.56 0.55 15.37 0V5.3C10.43 6.33 6.52 10.23 5.49 15.18Z" fill="#6E81B4"></path>
+<path d="M35.95 17.7902C35.95 18.6702 35.89 19.5402 35.76 20.4002C35.21 24.2102 33.45 27.7302 30.68 30.5002C27.91 33.2702 24.39 35.0302 20.58 35.5802V30.2802C25.52 29.2502 29.43 25.3502 30.46 20.4002H20.58V15.1802H35.76C35.88 16.0402 35.95 16.9102 35.95 17.7902Z" fill="#4A4A4D"></path>
+</g><defs>
+<clipPath id="clip0_620_1255">
+<rect width="35.95" height="35.58" fill="white"></rect>
+</clipPath>
+</defs></svg>
