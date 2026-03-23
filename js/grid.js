@@ -1,5 +1,5 @@
 function initializeOnScrollLogic() {
-    const cards = document.querySelectorAll('.services-section-card, .project-item');
+    const cards = document.querySelectorAll('.services-section-card, .project-item, .about-career-row');
 
     // Define the scroll-check function
     function checkCards() {
@@ -30,8 +30,32 @@ function initializeOnScrollLogic() {
     checkCards();
 }
 
+function initializeResponsiveProjectImages() {
+    const mobileImages = document.querySelectorAll('.project-img-mobile[data-mobile-src]');
+    const isMobileViewport = window.innerWidth <= 890;
+
+    mobileImages.forEach((image) => {
+        const mobileSrc = image.dataset.mobileSrc;
+        if (!mobileSrc) return;
+
+        if (isMobileViewport) {
+            if (image.getAttribute('src') !== mobileSrc) {
+                image.src = mobileSrc;
+                image.loading = 'lazy';
+            }
+            return;
+        }
+
+        image.removeAttribute('src');
+        image.removeAttribute('loading');
+    });
+}
+
 function initializeOnMouseEnterLogic() {
     const cards = document.querySelectorAll('.project-item');
+    const hoverScale = getComputedStyle(document.documentElement)
+        .getPropertyValue('--card-hover-scale')
+        .trim() || '1.03';
 
     // Only run on desktop
     if (window.innerWidth <= 890) return;
@@ -41,7 +65,7 @@ function initializeOnMouseEnterLogic() {
             // Set up a smooth transition for transform and background-position
             card.style.transition = "transform 0.3s ease-out, background-position 0.3s ease-out";
             // Scale up the card
-            card.style.transform = "scale(1.05)";
+            card.style.transform = `scale(${hoverScale})`;
             // Shift the background image up and left (from bottom right)
             card.style.backgroundPosition = "calc(100% - 5px) calc(100% - 5px)";
 
@@ -66,8 +90,102 @@ function initializeOnMouseEnterLogic() {
     });
 }
 
+function initializeProjectCardLinkLogic() {
+    const cards = document.querySelectorAll('.project-item[data-project-href]');
+    let projectsDataCache = null;
+
+    async function getProjectsDataForCards() {
+        if (projectsDataCache) return projectsDataCache;
+        if (typeof window.getProjectsData !== 'function') return null;
+
+        projectsDataCache = await window.getProjectsData();
+        return projectsDataCache;
+    }
+
+    function openProjectTab(card) {
+        // Safari may block delayed window.open() calls after async work,
+        // so open the tab immediately inside the user gesture.
+        const projectTab = window.open('', '_blank');
+
+        if (projectTab) {
+            projectTab.opener = null;
+        }
+
+        return projectTab;
+    }
+
+    async function navigateToProject(card, projectTab = null) {
+        const targetHash = card.dataset.projectHref;
+        if (!targetHash) {
+            projectTab?.close();
+            return;
+        }
+
+        const slug = targetHash.replace(/^#project\//, '');
+        const data = await getProjectsDataForCards();
+        const project = data?.projects?.find((entry) => entry.slug === slug);
+
+        if (!project) {
+            projectTab?.close();
+            return;
+        }
+
+        if (projectTab) {
+            const projectUrl = new URL(window.location.href);
+            projectUrl.hash = targetHash;
+            projectTab.location.replace(projectUrl.toString());
+            return;
+        }
+
+        window.location.hash = targetHash;
+    }
+
+    function updateCardAccessibility() {
+        cards.forEach(card => {
+            card.tabIndex = 0;
+            card.setAttribute('role', 'link');
+
+            const heading = card.querySelector('h3');
+            if (heading) {
+                card.setAttribute('aria-label', `Open in new tab ${heading.textContent}`);
+            }
+        });
+    }
+
+    cards.forEach(card => {
+        card.addEventListener('click', async () => {
+            const projectTab = openProjectTab(card);
+            await navigateToProject(card, projectTab);
+        });
+
+        card.addEventListener('keydown', async (event) => {
+            if (event.key !== 'Enter' && event.key !== ' ') return;
+
+            event.preventDefault();
+            const projectTab = openProjectTab(card);
+            await navigateToProject(card, projectTab);
+        });
+    });
+
+    if (window._projectCardResizeHandler) {
+        window.removeEventListener('resize', window._projectCardResizeHandler);
+    }
+
+    window._projectCardResizeHandler = () => {
+        updateCardAccessibility();
+        initializeResponsiveProjectImages();
+    };
+    window.addEventListener('resize', window._projectCardResizeHandler);
+    updateCardAccessibility();
+}
+
+initializeResponsiveProjectImages();
+
 // Initialize the scroll logic when the page loads
 initializeOnScrollLogic();
 
 // Initialize the mouse-enter logic when the page loads
 initializeOnMouseEnterLogic();
+
+// Initialize mobile project card navigation
+initializeProjectCardLinkLogic();

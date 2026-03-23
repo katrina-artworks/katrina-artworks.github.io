@@ -1,0 +1,2308 @@
+{
+  "projects": [
+    {
+      "slug": "naturcycle-mobile-app",
+      "title": "NaturCycle",
+      "subtitle": "UX/UI mobile app case study",
+      "meta": {
+        "tags": ["Product Design Case Study", "Mobile App", "Sustainability", "UX / UI", "2026"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project1/hero-01.avif",
+              "alt": "NaturCycle mobile app case study hero collage."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "about-project",
+          "title": "About the project.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "End-to-end UX case study for NaturCycle, a sustainable skincare startup. I ran interviews, built an empathy map and comparative matrix, defined flows, and moved from sketches to mid and high-fidelity wireframes and an interactive prototype. The design centers trust, clear recycling actions, and accessible, personalized skin analysis for diverse abilities."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tools: Figma, Miro, Illustrator, InDesign"
+            },
+            {
+              "type": "paragraph",
+              "text": "Methods: Double Diamond process, interviews, empathy mapping, comparative matrix, user flows, wireframing, prototype, walk-through usability checks"
+            }
+          ]
+        },
+        {
+          "id": "role-scope",
+          "title": "My role & scope.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "I was responsible for the full product design lifecycle: research, UX logic, UI, interaction design, and a documented design system."
+            },
+            {
+              "type": "pillList",
+              "items": [
+                "UX Research & Strategy",
+                "Competitive & Comparative Analysis",
+                "Information Architecture",
+                "User Flows",
+                "Ideation & Sketching",
+                "Wireframing",
+                "UI Design & Visual Strategy",
+                "Prototyping",
+                "Usability Testing"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "problem-challenge",
+          "title": "Problem & challenge.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Problem question: How might we help users make informed skincare decisions while offering a simple, transparent, and rewarding way to participate in NaturCycle's sustainability mission?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The challenge: NaturCycle's innovation - turning human waste into eco-active ingredients - is powerful but unfamiliar to many users. Without clear explanations, transparency, and intuitive navigation, this concept risks confusion or mistrust. Users also need a seamless way to understand their skin, explore products, and engage in recycling programs."
+            }
+          ]
+        },
+        {
+          "id": "company-overview",
+          "title": "Company overview.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "NaturCycle is a pioneering beauty startup dedicated to merging sustainability, biotechnology, and skincare. Using recycled human waste as a renewable resource, NaturCycle extracts nutrients and transforms them into eco-conscious, high-performance skincare products. The brand combines science, environmental responsibility, and natural beauty, aiming to make sustainable choices accessible and empowering."
+            },
+            {
+              "type": "media",
+              "display": "single",
+              "items": [
+                {
+                  "src": "assets/images/project1/company-overview-01.avif",
+                  "alt": "NaturCycle company overview board."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research",
+          "title": "Research.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "To understand NaturCycle's position in the clean-beauty market and identify opportunities for innovation, I conducted a comprehensive competitive and comparative analysis across direct, indirect, and value-aligned competitors."
+            },
+            {
+              "type": "paragraph",
+              "text": "This research examined each brand's features, app experience, sustainability communication, and user engagement strategies. By comparing NaturCycle's goals with established players like Sephora, Lush, Caudalie, Etique Beauty, and The Ordinary, I uncovered key strengths, gaps, and differentiators that shaped the direction of the app."
+            },
+            {
+              "type": "paragraph",
+              "text": "The insights gathered here informed the final Comparative Matrix and guided early design decisions, ensuring NaturCycle enters the market with clarity, strategy, and a user-centered advantage."
+            },
+            {
+              "type": "media",
+              "display": "single",
+              "items": [
+                {
+                  "src": "assets/images/project1/research-01.avif",
+                  "alt": "Comparative research matrix for NaturCycle."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "personas",
+          "title": "Personas.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "To design an app that truly reflects users' needs, motivations, and behaviors, I conducted both qualitative and quantitative research to build realistic personas for NaturCycle."
+            },
+            {
+              "type": "paragraph",
+              "text": "This process combined competitive insights, sustainability trends, user lifestyle data, and early assumptions, later validated through a \"Walk & Talk\" interview. The result is two complementary personas that represent NaturCycle's core audience: a qualitative Explorer seeking clarity and meaningful impact, and a quantitative Modern Sage driven by visual learning and social sharing."
+            },
+            {
+              "type": "paragraph",
+              "text": "Their empathy maps reveal emotional drivers, pain points, and opportunities that guided every design decision, from user flow to feature prioritization."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project1/personas-01.avif",
+                  "alt": "NaturCycle primary persona board."
+                },
+                {
+                  "src": "assets/images/project1/personas-02.avif",
+                  "alt": "NaturCycle empathy map board."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "journey-ia-user-flow",
+          "title": "Journey map & IA & user flow.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "To design an app that truly reflects users' needs, motivations, and behaviors, I conducted both qualitative and quantitative research to build realistic personas for NaturCycle."
+            },
+            {
+              "type": "paragraph",
+              "text": "This process combined competitive insights, sustainability trends, user lifestyle data, and early assumptions, later validated through a \"Walk & Talk\" interview. The result is two complementary personas that represent NaturCycle's core audience: a qualitative Explorer seeking clarity and meaningful impact, and a quantitative Modern Sage driven by visual learning and social sharing."
+            },
+            {
+              "type": "paragraph",
+              "text": "Their empathy maps reveal emotional drivers, pain points, and opportunities that guided every design decision, from user flow to feature prioritization."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project1/journey-map-01.avif",
+                  "alt": "NaturCycle journey map."
+                },
+                {
+                  "src": "assets/images/project1/journey-map-02.avif",
+                  "alt": "NaturCycle information architecture diagram."
+                },
+                {
+                  "src": "assets/images/project1/journey-map-03.avif",
+                  "alt": "NaturCycle user flow diagram."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "title": "Solution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The final design delivers a streamlined mobile experience that connects personalized skincare insights with sustainable beauty practices. Guided by research and validated through user feedback, the solution centers on an intuitive journey: users analyze their skin, receive tailored product recommendations, explore transparent ingredient information, and seamlessly complete their purchase. The interface emphasizes clarity, visual hierarchy, and minimal cognitive load to support confident decision-making. Beyond shopping, the app introduces a circular beauty experience through recycling participation, impact tracking, and rewards, transforming everyday skincare routines into meaningful environmental action. The resulting product balances education, personalization, and sustainability while maintaining a simple and engaging user experience."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project1/solution-01.avif",
+                  "alt": "NaturCycle solution screen set one."
+                },
+                {
+                  "src": "assets/images/project1/solution-02.avif",
+                  "alt": "NaturCycle solution screen set two."
+                },
+                {
+                  "src": "assets/images/project1/solution-03.avif",
+                  "alt": "NaturCycle solution screen set three."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "clean-currents-behavioral-app",
+      "title": "Clean Currents",
+      "subtitle": "UX/UI mobile app case study",
+      "meta": {
+        "tags": ["Product Design Case Study", "Mobile App", "Environment", "UX / UI", "2025"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project2/hero-01.avif",
+              "alt": "Clean Currents mobile app case study hero collage."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "about-project",
+          "title": "About the project.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Clean Currents is a mobile app concept designed to address microplastic pollution along Singapore's East Coast. The project combines environmental awareness with community-driven action, using a human-centered approach to encourage everyday participation in ocean conservation. By pairing data visualization with an emotional narrative: protecting local otters and marine life, the app transforms an overwhelming global issue into tangible, local impact."
+            }
+          ]
+        },
+        {
+          "id": "role-scope",
+          "title": "My role & scope.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "I led the project end-to-end, from initial concept development and research to interaction design and high-fidelity prototyping. My work included defining the problem space, designing user flows and information architecture, and creating a cohesive UI system. I also explored behavioral design principles, incorporating gamification, emotional design, and the Hook Model to drive engagement and long-term user retention."
+            },
+            {
+              "type": "pillList",
+              "items": [
+                "UX Research & Strategy",
+                "Behavioral design principles",
+                "Information Architecture",
+                "User Flows",
+                "Ideation & Sketching",
+                "Wireframing",
+                "UI Design & Visual Strategy",
+                "Hook Model",
+                "Emotional design"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "problem-challenge",
+          "title": "Problem & challenge.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Microplastic pollution is a complex and often invisible issue, making it difficult for individuals to understand their impact or feel motivated to act. The challenge was to design an experience that translates abstract environmental data into meaningful, actionable steps. Additionally, the app needed to balance education with engagement, avoiding fear or overwhelm while still communicating urgency and responsibility."
+            }
+          ]
+        },
+        {
+          "id": "context-opportunity",
+          "title": "Context & Opportunity.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This project is positioned within the context of Singapore's unique coastal ecosystem and its hybrid social culture, where both individual achievement and collective responsibility are valued. With increasing environmental awareness and active community initiatives, there is an opportunity to bridge the gap between intention and action through digital tools that support participation, education, and measurable impact."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project2/contextopportunity-01.avif",
+                  "alt": "Clean Currents context and opportunity board one."
+                },
+                {
+                  "src": "assets/images/project2/contextopportunity-02.avif",
+                  "alt": "Clean Currents context and opportunity board two."
+                },
+                {
+                  "src": "assets/images/project2/contextopportunity-03.avif",
+                  "alt": "Clean Currents context and opportunity board three."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research",
+          "title": "Research.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The project is grounded in environmental research around microplastic pollution and its effects on marine ecosystems, as well as behavioral psychology principles that influence user motivation. I explored emotional drivers such as trust, achievement, and hope, alongside negative states like apathy and overwhelm, to shape a more effective user experience. Insights also drew from community behavior and participation patterns, informing features like social engagement, challenges, and real-time feedback loops."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project2/research-01.avif",
+                  "alt": "Clean Currents research board one."
+                },
+                {
+                  "src": "assets/images/project2/research-02.avif",
+                  "alt": "Clean Currents research board two."
+                },
+                {
+                  "src": "assets/images/project2/research-03.avif",
+                  "alt": "Clean Currents research board three."
+                },
+                {
+                  "src": "assets/images/project2/research-04.avif",
+                  "alt": "Clean Currents research board four."
+                },
+                {
+                  "src": "assets/images/project2/research-05.avif",
+                  "alt": "Clean Currents research board five."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "title": "Solution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The final design delivers a streamlined mobile experience that connects personalized skincare insights with sustainable beauty practices. Guided by research and validated through user feedback, the solution centers on an intuitive journey: users analyze their skin, receive tailored product recommendations, explore transparent ingredient information, and seamlessly complete their purchase. The interface emphasizes clarity, visual hierarchy, and minimal cognitive load to support confident decision-making. Beyond shopping, the app introduces a circular beauty experience through recycling participation, impact tracking, and rewards, transforming everyday skincare routines into meaningful environmental action. The resulting product balances education, personalization, and sustainability while maintaining a simple and engaging user experience."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project2/solution-01.avif",
+                  "alt": "Clean Currents solution board one."
+                },
+                {
+                  "src": "assets/images/project2/solution-02.avif",
+                  "alt": "Clean Currents solution board two."
+                },
+                {
+                  "src": "assets/images/project2/solution-03.avif",
+                  "alt": "Clean Currents solution board three."
+                },
+                {
+                  "src": "assets/images/project2/solution-04.avif",
+                  "alt": "Clean Currents solution board four."
+                },
+                {
+                  "src": "assets/images/project2/solution-05.avif",
+                  "alt": "Clean Currents solution board five."
+                },
+                {
+                  "src": "assets/images/project2/solution-06.avif",
+                  "alt": "Clean Currents solution board six."
+                },
+                {
+                  "src": "assets/images/project2/solution-07.avif",
+                  "alt": "Clean Currents solution board seven."
+                },
+                {
+                  "src": "assets/images/project2/solution-08.avif",
+                  "alt": "Clean Currents solution board eight."
+                },
+                {
+                  "src": "assets/images/project2/solution-09.avif",
+                  "alt": "Clean Currents solution board nine."
+                },
+                {
+                  "src": "assets/images/project2/solution-10.avif",
+                  "alt": "Clean Currents solution board ten."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "brand-strategy-kit",
+      "title": "Brand Strategy Kit for \"BLEND\"",
+      "subtitle": "Brand book, website, and marketing pitch deck",
+      "meta": {
+        "tags": ["Brand Identity", "Marketing Strategy", "Campaign Design", "Collaboration", "2025"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project3/hero-01.avif",
+              "alt": "BLEND brand strategy kit hero with coffee packaging and cup mockups."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "about-project",
+          "title": "About the project.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "BLEND is a specialty coffee brand concept developed through a collaborative process, combining brand identity, digital experience, and marketing strategy. The project began with foundational research and evolved into a complete brand system, including a detailed brand book, website concepts, and a multi-platform marketing campaign."
+            },
+            {
+              "type": "paragraph",
+              "text": "The goal was to create a brand that balances high-quality coffee with ethical sourcing, community, and modern digital engagement, translating these values into a cohesive and scalable design system."
+            }
+          ]
+        },
+        {
+          "id": "role-scope",
+          "title": "My role & scope.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This was a collaborative project, where I contributed across research, brand development, visual design, and marketing execution. My role focused on shaping the visual identity, supporting system consistency, and contributing to campaign design and storytelling."
+            },
+            {
+              "type": "pillList",
+              "items": [
+                "Brand Identity",
+                "Visual Design",
+                "Marketing Campaign Design",
+                "UI Design & Visual Strategy",
+                "Marketing Strategy",
+                "Wireframing",
+                "Research & Insights",
+                "Figma",
+                "Adobe Creative Suite"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "problem-challenge",
+          "title": "Problem & challenge.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The coffee market is highly saturated, with many brands competing on aesthetics, quality, and convenience. The challenge was to design a brand that feels authentic and human while also differentiating itself through ethical practices and community-driven values."
+            },
+            {
+              "type": "paragraph",
+              "text": "Additionally, the project required translating abstract values, such as sustainability, trust, and connection, into a consistent visual and digital experience across multiple touchpoints, including print, web, and marketing campaigns."
+            }
+          ]
+        },
+        {
+          "id": "brand-overview",
+          "title": "Brand overview.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "BLEND is positioned as a purpose-driven coffee brand centered around community, transparency, and quality. The brand emphasizes ethical sourcing, fair partnerships with farmers, and meaningful customer experiences."
+            },
+            {
+              "type": "paragraph",
+              "text": "As outlined in the brand guidelines, BLEND focuses on creating a welcoming, human-centered environment where every customer is treated as a valued individual, reinforcing the idea that the brand is shaped by people and relationships rather than visuals alone."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project3/brandOverview-01.avif",
+                  "alt": "BLEND brand overview board one."
+                },
+                {
+                  "src": "assets/images/project3/brandOverview-02.avif",
+                  "alt": "BLEND brand overview board two."
+                },
+                {
+                  "src": "assets/images/project3/brandOverview-03.avif",
+                  "alt": "BLEND brand overview board three."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brand-identity-system",
+          "title": "Brand Identity & System.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The visual identity reflects warmth, nature, and craftsmanship. A rich, earthy color palette, featuring tones like dark roast brown and matcha green, creates a grounded and organic feel, while maintaining flexibility across applications."
+            },
+            {
+              "type": "paragraph",
+              "text": "Typography combines modern clarity with subtle character, supporting both readability and brand personality. The logo system and icon are designed for consistency and adaptability, with strict usage and clear-space rules ensuring visual integrity across platforms."
+            },
+            {
+              "type": "paragraph",
+              "text": "A comprehensive brand book was created to document these elements and guide consistent application across print, digital, and merchandise."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project3/BrandIdentity-01.avif",
+                  "alt": "BLEND brand identity system board one."
+                },
+                {
+                  "src": "assets/images/project3/BrandIdentity-02.avif",
+                  "alt": "BLEND brand identity system board two."
+                },
+                {
+                  "src": "assets/images/project3/BrandIdentity-03.avif",
+                  "alt": "BLEND brand identity system board three."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research-strategy",
+          "title": "Research & strategy.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The project was grounded in research and strategic thinking. This included competitor analysis, user interviews, personas, and empathy mapping to understand user motivations and behaviors."
+            },
+            {
+              "type": "paragraph",
+              "text": "For example, the persona \"Jane Carter\" represents a modern, socially conscious user who values sustainability, quality, and community, while expecting convenience and digital integration."
+            },
+            {
+              "type": "paragraph",
+              "text": "Insights highlighted the importance of:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "Transparency and ethical sourcing",
+                "Cozy, community-driven environments",
+                "Digital convenience and modern experiences",
+                "Authentic storytelling over corporate branding"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "These findings informed both the brand direction and marketing strategy."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project3/Research&Strategy-01.avif",
+                  "alt": "BLEND research and strategy board one."
+                },
+                {
+                  "src": "assets/images/project3/Research&Strategy-02.avif",
+                  "alt": "BLEND research and strategy board two."
+                },
+                {
+                  "src": "assets/images/project3/Research&Strategy-03.avif",
+                  "alt": "BLEND research and strategy board three."
+                },
+                {
+                  "src": "assets/images/project3/Research&Strategy-04.avif",
+                  "alt": "BLEND research and strategy board four."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "digital-experience",
+          "title": "Digital experience.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The website concept translates the brand into a clean, modern interface that emphasizes storytelling and usability."
+            },
+            {
+              "type": "paragraph",
+              "text": "As shown in the wireframes (pages 14-15), the experience includes:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "A minimalist loading screen introducing the brand tone",
+                "A product-focused shopping page with clear hierarchy and messaging",
+                "Emphasis on sustainability and product storytelling"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The design balances simplicity with warmth, ensuring the digital experience aligns with the brand's values."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project3/DigitalExperience-01.avif",
+                  "alt": "BLEND digital experience board one."
+                },
+                {
+                  "src": "assets/images/project3/DigitalExperience-02.avif",
+                  "alt": "BLEND digital experience board two."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "marketing-campaign",
+          "title": "Marketing campaign.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The marketing strategy extends the brand across multiple channels, focusing on community engagement and storytelling."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key elements include:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "Email campaigns sharing product updates and behind-the-scenes stories",
+                "Social media content highlighting products, customers, and ethical sourcing",
+                "Experiential marketing such as coffee tastings, pop-up lounges, and workshops"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "These touchpoints work together to build a consistent, engaging brand presence both online and offline, reinforcing BLEND's identity as \"coffee with purpose.\""
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project3/MarketingCampaign-01.avif",
+                  "alt": "BLEND marketing campaign board one."
+                },
+                {
+                  "src": "assets/images/project3/MarketingCampaign-02.avif",
+                  "alt": "BLEND marketing campaign board two."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "title": "Solution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The final outcome is a cohesive, multi-platform brand ecosystem that connects identity, experience, and marketing. BLEND successfully integrates visual design, storytelling, and strategy into a unified system that reflects its core values of sustainability, quality, and community."
+            },
+            {
+              "type": "paragraph",
+              "text": "From the brand book to the website and campaign execution, every element works together to create a consistent and meaningful experience, demonstrating how thoughtful design can translate values into a scalable and engaging brand."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "food-delivery-app",
+      "title": "Bimi Box",
+      "subtitle": "UX/UI mobile app case study",
+      "meta": {
+        "tags": ["Product Design Case Study", "Mobile App", "Food delivery", "UX / UI", "2023"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project9/hero-01.avif",
+              "alt": "Bimi Box mobile app case study hero collage."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "about-project",
+          "title": "About the project.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Bimi Box is a food delivery mobile app designed to provide a fast, convenient, and rewarding way to order meals on the go. The concept combines everyday usability with added value through features like a rewards system and \"Mystery Boxes\" that help reduce food waste. The goal was to create an experience that not only simplifies ordering but also introduces meaningful incentives and sustainable choices into a highly competitive market."
+            }
+          ]
+        },
+        {
+          "id": "role-scope",
+          "title": "My role & scope.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "I worked on this project end-to-end, leading research, UX strategy, and UI design. My scope included competitive and feature analysis, user surveys and interviews, persona creation, journey mapping, and information architecture. I translated insights into sketches, wireframes, and high-fidelity designs, and conducted usability testing to iterate and refine the experience. This project also marked an early exploration of user-centered design and iterative workflows."
+            },
+            {
+              "type": "pillList",
+              "items": [
+                "UX Research & Strategy",
+                "Competitive & Comparative Analysis",
+                "Information Architecture",
+                "User Flows",
+                "Ideation & Sketching",
+                "Wireframing",
+                "UI Design & Visual Strategy",
+                "Prototyping",
+                "Usability Testing"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "problem-challenge",
+          "title": "Problem & challenge.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "As food delivery becomes increasingly integrated into daily life, users expect speed and convenience without friction. However, many existing platforms still present challenges such as unclear navigation, inconsistent delivery experiences, and limited personalization. The key challenge was to design a seamless ordering experience that reduces effort while also differentiating itself through added value, balancing usability, engagement, and unique features like sustainability and rewards."
+            }
+          ]
+        },
+        {
+          "id": "brand-product-direction",
+          "title": "Brand & Product Direction.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Bimi Box is positioned as a modern, user-friendly, and slightly playful brand that emphasizes freshness, convenience, and accessibility. The visual identity reflects this through clean typography and a vibrant green color palette associated with freshness and healthy choices. Supporting colors like orange introduce energy and appetite appeal, while the overall system maintains clarity and trust. The product direction focuses on combining efficiency with delight, making everyday food ordering feel intuitive, rewarding, and visually engaging."
+            },
+            {
+              "type": "media",
+              "display": "single",
+              "items": [
+                {
+                  "src": "assets/images/project9/brand-01.avif",
+                  "alt": "Bimi Box brand and product direction board."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research",
+          "title": "Research.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The design process began with a combination of competitive analysis, feature analysis, surveys, and user interviews. I analyzed major platforms such as Uber Eats, DoorDash, and Deliveroo to identify strengths like real-time tracking and variety, as well as gaps such as limited transparency and missing features."
+            },
+            {
+              "type": "paragraph",
+              "text": "User research revealed key expectations:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "A seamless and intuitive ordering process",
+                "Transparent pricing and delivery information",
+                "Reliable delivery and tracking",
+                "Access to reviews, ratings, and personalized recommendations"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Pain points included inconsistent delivery times, limited search functionality, and confusing UI patterns. These insights directly informed design decisions, ensuring the app addressed real user frustrations while enhancing convenience and trust."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project9/research-01.avif",
+                  "alt": "Bimi Box design process board."
+                },
+                {
+                  "src": "assets/images/project9/research-02.avif",
+                  "alt": "Bimi Box competitive analysis board."
+                },
+                {
+                  "src": "assets/images/project9/research-03.avif",
+                  "alt": "Bimi Box user survey board."
+                },
+                {
+                  "src": "assets/images/project9/research-04.avif",
+                  "alt": "Bimi Box user interview board."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "personas",
+          "title": "Personas.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Based on user research, personas and empathy maps were developed to better understand user motivations, behaviors, and pain points, and to guide design decisions throughout the process."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sam - Convenience-Driven Professional"
+            },
+            {
+              "type": "paragraph",
+              "text": "Values speed, reliability, and a seamless ordering experience. Prioritizes efficient flows, real-time tracking, and transparent pricing, with an interest in sustainable options."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bella - Time-Constrained Creative"
+            },
+            {
+              "type": "paragraph",
+              "text": "Seeks flexibility and convenience, while enjoying discovery and rewards. Influenced by promotions, personalized recommendations, and a visually engaging interface."
+            },
+            {
+              "type": "paragraph",
+              "text": "These personas informed key decisions around usability, features, and overall experience."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project9/personas-01.avif",
+                  "alt": "Bimi Box persona one."
+                },
+                {
+                  "src": "assets/images/project9/personas-02.avif",
+                  "alt": "Bimi Box persona two."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "journey-map-ia-site-map",
+          "title": "Journey map & IA & site map.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "To structure the experience, I developed personas, empathy maps, and a customer journey map that captured the full ordering process: from discovering the app to post-delivery feedback. This helped identify emotional highs (convenience, satisfaction) and lows (delays, confusion), revealing opportunities for improvement."
+            },
+            {
+              "type": "paragraph",
+              "text": "The information architecture and sitemap were designed to support clear navigation and reduce cognitive load. Key flows, such as browsing restaurants, customizing orders, and completing checkout, were simplified to minimize friction. Early sketches and wireframes explored multiple layout directions, allowing iterative refinement before moving into mid- and high-fidelity designs."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project9/journeymap-01.avif",
+                  "alt": "Bimi Box customer journey map."
+                },
+                {
+                  "src": "assets/images/project9/journeymap-02.avif",
+                  "alt": "Bimi Box information architecture and site map."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "title": "Solution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The final solution delivers a streamlined and engaging food ordering experience centered on clarity, speed, and added value. The interface features improved hierarchy, intuitive navigation, and enhanced search and filtering capabilities to help users quickly find what they need."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key features include:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "A simplified and visually structured home screen",
+                "Transparent pricing and improved browsing experience",
+                "Rewards system (Bimi Rewards) to encourage repeat usage",
+                "\"Mystery Boxes\" to reduce food waste and introduce sustainable behavior",
+                "Enhanced filtering and search for more precise discovery"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Usability testing played a critical role in refining the design, resolving issues like unclear hierarchy and confusing navigation. The final product balances efficiency with engagement, offering users a seamless experience while differentiating through sustainability and rewards-driven interactions."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project9/solution-01.avif",
+                  "alt": "Bimi Box solution screen set one."
+                },
+                {
+                  "src": "assets/images/project9/solution-02.avif",
+                  "alt": "Bimi Box solution screen set two."
+                },
+                {
+                  "src": "assets/images/project9/solution-03.avif",
+                  "alt": "Bimi Box solution screen set three."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "golden-ratio-celebration-icons",
+      "title": "Traditional Celebration",
+      "subtitle": "Culturally inspired icon system",
+      "meta": {
+        "tags": ["Golden Ratio", "Cultural Celebrations", "Accessibility tested", "Icons set", "2025"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project7/hero-01.avif",
+              "alt": "Traditional Celebration icon system hero board."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "about-project",
+          "title": "About the project.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Traditional Celebration is a culturally driven icon system that explores festivals from South Korea, Singapore, and Russia. The project translates cultural traditions into a cohesive set of six icons, each representing a specific celebration through symbolic elements, attire, and storytelling. The goal was to create a visually engaging and inclusive system that communicates cultural meaning while maintaining consistency and clarity."
+            }
+          ]
+        },
+        {
+          "id": "role-scope",
+          "title": "My role & scope.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This was a collaborative project where I contributed to concept development, research, visual design, and system creation. My role included defining the design direction, building the visual language, developing sketches, and refining the final icons. I also worked on color, typography, and accessibility to ensure a cohesive and inclusive outcome."
+            },
+            {
+              "type": "pillList",
+              "items": [
+                "Visual Design",
+                "Color & Accessibility",
+                "Icon Design",
+                "Cultural Research",
+                "Ideation & Sketching",
+                "Illustration",
+                "Branding & Identity",
+                "Art Direction",
+                "Design System"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "problem-challenge",
+          "title": "Problem & challenge.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Designing culturally representative visuals comes with the challenge of balancing accuracy, respect, and simplicity. The key challenge was to create icons that are minimal enough to function as a system, yet detailed enough to communicate distinct cultural identities. Ensuring visual consistency across different cultures while preserving uniqueness was a central design problem."
+            }
+          ]
+        },
+        {
+          "id": "research",
+          "title": "Research.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The project began with cultural research into traditional celebrations, symbols, clothing, and rituals across the selected regions. A mood board informed the tone: festive, vibrant, and inclusive, while a mind map helped identify key visual elements such as clothing, food, and symbolic objects tied to each holiday."
+            },
+            {
+              "type": "paragraph",
+              "text": "This research ensured that each icon was not only visually appealing but also culturally meaningful and respectful, translating complex traditions into accessible visual forms."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project7/research-01.avif",
+                  "alt": "Traditional Celebration cultural research board one."
+                },
+                {
+                  "src": "assets/images/project7/research-02.avif",
+                  "alt": "Traditional Celebration cultural research board two."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brand-identity-visual-direction",
+          "title": "Brand Identity & Visual Direction.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The visual identity is festive, warm, and inclusive, reflecting the joy and diversity of global celebrations. A carefully selected color palette combines vibrant reds and oranges with deeper tones to evoke energy, tradition, and cultural richness, while maintaining accessibility through contrast testing. Typography pairs expressive serif headings with clean sans-serif body text to balance storytelling with clarity. The icon style uses thick, rounded lines to create a friendly and approachable aesthetic."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project7/brabdidentity-01.avif",
+                  "alt": "Traditional Celebration brand identity board one."
+                },
+                {
+                  "src": "assets/images/project7/brabdidentity-02.avif",
+                  "alt": "Traditional Celebration brand identity board two."
+                },
+                {
+                  "src": "assets/images/project7/brabdidentity-03.avif",
+                  "alt": "Traditional Celebration brand identity board three."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "design-system",
+          "title": "Design System.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A structured design system was developed to ensure consistency across all icons. This included the use of a golden ratio-based grid to guide proportions and layout, as well as a library of reusable elements such as facial features and shapes. This system allowed each icon to feel unique while remaining visually cohesive as part of a larger set."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project7/designSystem-01.avif",
+                  "alt": "Traditional Celebration design system board one."
+                },
+                {
+                  "src": "assets/images/project7/designSystem-02.avif",
+                  "alt": "Traditional Celebration design system board two."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "title": "Solution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The final solution is a cohesive icon set representing six cultural celebrations, each combining character design with symbolic elements to tell a story. The icons balance simplicity and detail through consistent shapes, expressive features, and a unified color system."
+            },
+            {
+              "type": "paragraph",
+              "text": "Each icon communicates a unique narrative, such as harvest, renewal, or celebration, while maintaining harmony within the system. Accessibility testing ensured the designs remain clear across different visual conditions, reinforcing inclusivity. The result is a scalable and culturally rich icon system that celebrates diversity while maintaining visual consistency."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project7/solution1-01.avif",
+                  "alt": "Traditional Celebration solution board one."
+                },
+                {
+                  "src": "assets/images/project7/solution1-02.avif",
+                  "alt": "Traditional Celebration accessibility testing board."
+                }
+              ]
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project7/solution2-01.avif",
+                  "alt": "Traditional Celebration icon set board one."
+                },
+                {
+                  "src": "assets/images/project7/solution2-02.avif",
+                  "alt": "Traditional Celebration icon set board two."
+                },
+                {
+                  "src": "assets/images/project7/solution2-03.avif",
+                  "alt": "Traditional Celebration icon set board three."
+                },
+                {
+                  "src": "assets/images/project7/solution2-04.avif",
+                  "alt": "Traditional Celebration icon set board four."
+                },
+                {
+                  "src": "assets/images/project7/solution2-05.avif",
+                  "alt": "Traditional Celebration icon set board five."
+                },
+                {
+                  "src": "assets/images/project7/solution2-06.avif",
+                  "alt": "Traditional Celebration icon set board six."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "website-design-development",
+      "title": "Website Design & Development",
+      "subtitle": "Responsive, accessible",
+      "meta": {
+        "tags": ["HTML", "CSS", "JavaScript", "Responsive website", "Mobile first approach", "2025"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project5/hero-01.avif",
+              "alt": "Responsive portfolio website hero shown across desktop and mobile devices."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "about-project",
+          "title": "About the project.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This project is a fully responsive personal portfolio website designed and developed from scratch using semantic HTML, CSS, and vanilla JavaScript. It showcases my work, introduces my personal brand, and provides a seamless way for users to explore projects and get in touch."
+            },
+            {
+              "type": "paragraph",
+              "text": "The experience was built with a strong focus on accessibility, responsiveness, and interaction, ensuring the site performs consistently across devices while maintaining a clear, engaging user journey."
+            }
+          ]
+        },
+        {
+          "id": "role-scope",
+          "title": "My role & scope.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "I worked on this project end-to-end, combining product thinking, visual design, and front-end development. My work included defining a personal brand, designing high-fidelity wireframes, and translating them into a fully functional website."
+            },
+            {
+              "type": "paragraph",
+              "text": "I implemented reusable components, interactive behaviors, and responsive layouts while ensuring accessibility standards such as keyboard navigation and reduced-motion preferences."
+            },
+            {
+              "type": "pillList",
+              "items": [
+                "Web Design",
+                "Front-End Development",
+                "Responsive Design",
+                "Accessibility (WCAG)",
+                "Interaction Design",
+                "UI Design & Visual Strategy",
+                "HTML/CSS · JavaScript",
+                "Branding"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "problem-challenge",
+          "title": "Problem & challenge.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Designing a personal portfolio requires balancing self-expression with usability. The challenge was to create a website that feels visually unique and personal, while still being clear, structured, and easy to navigate."
+            },
+            {
+              "type": "paragraph",
+              "text": "Additionally, the project required bridging design and development, ensuring that visual decisions (typography, layout, interactions) translated effectively into code without losing consistency. Accessibility and responsiveness added another layer of complexity, requiring thoughtful handling of layouts, motion, and user interactions across devices."
+            }
+          ]
+        },
+        {
+          "id": "branding-visual-identity",
+          "title": "Branding & Visual Identity.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The project began with defining a personal brand through three core attributes: empathetic, creative, and analytical. These qualities informed all visual and interaction decisions across the site."
+            },
+            {
+              "type": "paragraph",
+              "text": "The color palette balances soft, warm tones with neutral grays to reflect creativity and clarity, while typography pairs modern sans-serif with expressive serif elements to maintain both readability and personality."
+            },
+            {
+              "type": "paragraph",
+              "text": "Custom UI elements, including a personal logo, buttons, and navigation, were designed to create a cohesive and recognizable system."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project5/branding-01.avif",
+                  "alt": "Portfolio branding and visual identity board one."
+                },
+                {
+                  "src": "assets/images/project5/branding-02.avif",
+                  "alt": "Portfolio branding and visual identity board two."
+                },
+                {
+                  "src": "assets/images/project5/branding-03.avif",
+                  "alt": "Portfolio branding and visual identity board three."
+                },
+                {
+                  "src": "assets/images/project5/branding-04.avif",
+                  "alt": "Portfolio branding and visual identity board four."
+                },
+                {
+                  "src": "assets/images/project5/branding-05.avif",
+                  "alt": "Portfolio branding and visual identity board five."
+                },
+                {
+                  "src": "assets/images/project5/branding-06.avif",
+                  "alt": "Portfolio branding and visual identity board six."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "design-interaction-system",
+          "title": "Design & Interaction System.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The interface was designed through high-fidelity wireframes for each core page: Contact, About, and Gallery, ensuring consistency across layouts and breakpoints."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key interaction patterns include:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "Form validation with real-time feedback and error states",
+                "Hover and focus states for accessibility and clarity",
+                "Animated transitions to guide user attention",
+                "Confirmation pop-ups with personalized messaging"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For example, the Contact page includes validation states, success indicators, and a confirmation overlay to create a clear and responsive interaction flow."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project5/design&interaction-01.avif",
+                  "alt": "Portfolio design and interaction system board one."
+                },
+                {
+                  "src": "assets/images/project5/design&interaction-02.avif",
+                  "alt": "Portfolio design and interaction system board two."
+                },
+                {
+                  "src": "assets/images/project5/design&interaction-03.avif",
+                  "alt": "Portfolio design and interaction system board three."
+                },
+                {
+                  "src": "assets/images/project5/design&interaction-04.avif",
+                  "alt": "Portfolio design and interaction system board four."
+                },
+                {
+                  "src": "assets/images/project5/design&interaction-05.avif",
+                  "alt": "Portfolio design and interaction system board five."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "responsive-technical-implementation",
+          "title": "Responsive & Technical Implementation.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The website was developed using semantic HTML, CSS (Flexbox and grid layouts), and vanilla JavaScript."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key implementation features include:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "JS-injected header and footer for reusable components",
+                "Responsive layouts optimized for mobile and desktop",
+                "Burger navigation with animated transitions",
+                "Hover, scroll, and load-triggered animations",
+                "Accessibility considerations such as keyboard navigation and reduced-motion support"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The Gallery page demonstrates responsive grid behavior and interactive hover states, while mobile layouts prioritize clarity and touch interaction."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project5/responsive-01.avif",
+                  "alt": "Portfolio responsive and technical implementation board one."
+                },
+                {
+                  "src": "assets/images/project5/responsive-02.avif",
+                  "alt": "Portfolio responsive and technical implementation board two."
+                },
+                {
+                  "src": "assets/images/project5/responsive-03.avif",
+                  "alt": "Portfolio responsive and technical implementation board three."
+                },
+                {
+                  "src": "assets/images/project5/responsive-04.avif",
+                  "alt": "Portfolio responsive and technical implementation board four."
+                },
+                {
+                  "src": "assets/images/project5/responsive-05.avif",
+                  "alt": "Portfolio responsive and technical implementation board five."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "title": "Solution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The final result is a fully functional, responsive portfolio website that integrates design, development, and personal branding into a cohesive experience."
+            },
+            {
+              "type": "paragraph",
+              "text": "The site balances visual clarity with interaction, using structured layouts, accessible components, and subtle animations to guide users through content. Each page, from About to Gallery to Contact, supports a clear purpose while maintaining consistency across the system."
+            },
+            {
+              "type": "paragraph",
+              "text": "This project demonstrates the ability to move from concept to execution, translating design decisions into working code while prioritizing usability, accessibility, and performance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "posters",
+      "title": "Collection of Posters",
+      "subtitle": "Graphic design",
+      "meta": {
+        "tags": ["Graphic Design", "Data Visualization", "Poster Design", "Designer Manifesto", "2025"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project6/hero-01.avif",
+              "alt": "Collection of posters hero mockup."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "data-visualization-sleep-patterns",
+          "title": "Data visualization: Sleep Patterns.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Personal data study visualizing two weeks of REM, Core, and Deep sleep recorded by a smartwatch. I cleaned and compared the data, sketched concepts, and built a legible chart in Adobe Illustrator with a restrained palette and accessible type."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: tell a clear visual story with numbers, simplify and compare relationships among sleep stages at a glance, and model accessible visualization practices (legible type, color-blind-safe palette)."
+            },
+            {
+              "type": "media",
+              "display": "single",
+              "items": [
+                {
+                  "src": "assets/images/project6/dataviz-01.avif",
+                  "alt": "Sleep patterns data visualization poster."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "designer-manifesto",
+          "title": "Designer manifesto.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Process: drafted a 25-point manifesto, structured hierarchy in Inter, and composed a 9 x 12-inch RGB poster using a modular grid."
+            },
+            {
+              "type": "paragraph",
+              "text": "Method/Media: Adobe Illustrator, digital typography with high-contrast, screen-accessible colours."
+            },
+            {
+              "type": "paragraph",
+              "text": "Concept: empathy as the engine of inclusive design."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: clarify principles that guide my design decisions and collaboration with clients, peers, and users."
+            },
+            {
+              "type": "media",
+              "display": "single",
+              "items": [
+                {
+                  "src": "assets/images/project6/designermanifesto-01.avif",
+                  "alt": "Designer manifesto poster."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "patagonia-ads",
+          "title": "Patagonia ads.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A three-poster series exploring typography's roles: imagery-led ad, headline-led ad, and long-copy ad. Set at 8.5 x 11 with 0.5-inch margins and 0.125-inch bleed."
+            },
+            {
+              "type": "paragraph",
+              "text": "Process: moodboards, sketches, grid, hierarchy, kerning/tracking, and color contrast."
+            },
+            {
+              "type": "paragraph",
+              "text": "Media: Adobe InDesign/Illustrator."
+            },
+            {
+              "type": "paragraph",
+              "text": "Concept: adventure with responsibility."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: practice legibility, narrative voice, and accessibility."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project6/patagoniaAds-01.avif",
+                  "alt": "Patagonia ad series layout."
+                },
+                {
+                  "src": "assets/images/project6/patagoniaAds-02.avif",
+                  "alt": "Patagonia ad series moodboard."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dynamic-magazine-layout",
+      "title": "Musician Magazine",
+      "subtitle": "Editorial layout",
+      "meta": {
+        "tags": ["Graphic Design", "Adobe InDesign", "Design for Print", "Grid Systems", "2025"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project8/hero-01.avif",
+              "alt": "Musician Magazine editorial layout hero spread."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "about-project",
+          "title": "About the project.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Musician Magazine is a six-page editorial layout exploring how grid systems and typography shape long-form reading experiences. The project focuses on structuring content across three distinct spreads: image-led, balanced, and copy-led, while maintaining consistency and rhythm throughout. The layout features over 300 words and five images centered around a musician feature article, translating editorial principles into a cohesive visual system."
+            }
+          ]
+        },
+        {
+          "id": "role-scope",
+          "title": "My role & scope.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "I developed the project end-to-end, from grid construction and typographic decisions to layout design and refinement. My work included building a modular grid, establishing hierarchy, selecting typefaces, and iterating across multiple layout versions. I also refined spacing, alignment, and image integration to create a balanced and readable editorial experience."
+            },
+            {
+              "type": "pillList",
+              "items": [
+                "Editorial Design",
+                "Layout Design",
+                "Modular Grid System",
+                "Typographic Systems",
+                "Print Design",
+                "Visual Hierarchy",
+                "Composition & Rhythm",
+                "Art Direction",
+                "Long-form Layout"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "problem-challenge",
+          "title": "Problem & challenge.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Designing for editorial layouts requires balancing visual expression with readability. The key challenge was to organize a large amount of text while maintaining clear hierarchy, comfortable reading flow, and visual interest. Additionally, each spread needed to feel distinct in composition while still functioning as part of a cohesive system."
+            }
+          ]
+        },
+        {
+          "id": "design-system-layout-approach",
+          "title": "Design System & Layout Approach.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The layout is built on a 10 x 10 modular grid with carefully defined margins and gutters, providing structure and flexibility for different content types. This system supports consistent alignment, spacing, and rhythm across spreads while allowing variation in composition."
+            },
+            {
+              "type": "paragraph",
+              "text": "Three layout approaches were explored:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "Image-led spread to create strong visual impact",
+                "Balanced spread where text and imagery work together",
+                "Copy-led spread prioritizing readability and long-form content"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "This progression helps guide the reader through the article while maintaining engagement."
+            }
+          ]
+        },
+        {
+          "id": "process-iteration",
+          "title": "Process & Iteration.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The design evolved through multiple stages, from initial sketches to refined layouts. Early explorations focused on grid structure, hierarchy, and column width."
+            },
+            {
+              "type": "paragraph",
+              "text": "As shown on the process page, iterations included:"
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "Testing typography and baseline grid with placeholder content",
+                "Integrating final imagery and adjusting hierarchy",
+                "Refining spacing, contrast, and alignment for clarity and flow"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "This iterative approach ensured both visual consistency and improved readability."
+            },
+            {
+              "type": "media",
+              "display": "single",
+              "items": [
+                {
+                  "src": "assets/images/project8/process-01.avif",
+                  "alt": "Musician Magazine process and iteration board."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "title": "Solution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The final outcome is a cohesive editorial system that balances structure with visual expression. The layout uses consistent typography, controlled spacing, and strong hierarchy to support long-form reading, while varied compositions across spreads maintain interest."
+            },
+            {
+              "type": "paragraph",
+              "text": "Clear line lengths, thoughtful contrast, and structured grids enhance accessibility and readability, ensuring the content is easy to navigate. The result is a polished, print-ready magazine layout that demonstrates how grid systems and typographic decisions can create a clear, engaging editorial experience."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project8/solution-01.avif",
+                  "alt": "Musician Magazine final spread one."
+                },
+                {
+                  "src": "assets/images/project8/solution-02.avif",
+                  "alt": "Musician Magazine final spread two."
+                },
+                {
+                  "src": "assets/images/project8/solution-03.avif",
+                  "alt": "Musician Magazine final spread three."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "storytelling-and-motion",
+      "title": "Storytelling & Motion Graphics",
+      "subtitle": "Video editing & VFX",
+      "meta": {
+        "tags": ["Video Editing", "Premiere Pro", "Motion graphics", "After Effects", "2025"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project6/hero-01.avif",
+              "alt": "Storytelling and motion graphics hero poster mockup."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "beat-marker-intro-story-about-art-travel",
+          "title": "Beat-Marker Intro: \"Story about Art & Travel\".",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Thirty-second beat-marker intro edited in Premiere Pro. A montage of my paintings and the places that inspired them. I placed beat markers, cut on downbeats, used match cuts and subtle scale/position moves to guide attention, applied light color grading, and exported 1920 x 1080."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tools: Premiere Pro."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: introduce my art and inspirations with rhythmic clarity."
+            },
+            {
+              "type": "video",
+              "title": "Beat-Marker Intro: Story about Art & Travel",
+              "url": "https://youtu.be/_PUF-N8gFdw"
+            }
+          ]
+        },
+        {
+          "id": "seatbelts-save-lives-motion-psa",
+          "title": "Seatbelts Save Lives: Motion PSA.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Motion PSA translating \"Seatbelts save lives\" into kinetic type and vector symbolism. I storyboarded by hand, built an animatic to PSA audio, created all vector assets in Illustrator, then animated text and vector graphics using timing, antithesis, and zeugma. Delivered a 1920 x 1080 video with sound design."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tools: After Effects, Adobe Illustrator."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: empathetic, memorable safety messaging."
+            },
+            {
+              "type": "video",
+              "title": "Seatbelts Save Lives: Motion PSA",
+              "url": "https://youtu.be/Txk2EDWBTk0"
+            }
+          ]
+        },
+        {
+          "id": "demo-reel-visual-communication-highlights",
+          "title": "Demo Reel: Visual Communication Highlights.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Sixty-second demo reel curated from coursework and personal projects. I storyboarded a sequence, edited in Premiere Pro, balanced color and exposure, normalized audio, and timed cuts to rhythm. Media spans UI prototypes, motion graphics, AI-generated content, illustration, and photography."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tools: Premiere Pro."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: present breadth, pacing, and storytelling craft for inclusive, client-ready communication and portfolio presentation."
+            },
+            {
+              "type": "video",
+              "title": "Demo Reel: Visual Communication Highlights",
+              "url": "https://youtu.be/e82xiIBNRXs"
+            }
+          ]
+        },
+        {
+          "id": "creative-vfx-self-performed-mini-scene",
+          "title": "Creative VFX: Self-Performed Mini Scene.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Storyboarded and filmed a 10-second VFX shot interacting with a magic element. Composited in After Effects with planar tracking, rotoscoping, light wrap, motion blur, and color matching; edited in Premiere (1920 x 1080). Reads clearly on first watch."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tools: After Effects, Premiere Pro."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: practice clean timing, believable integration, and motion principles for UI micro-interactions and feedback."
+            },
+            {
+              "type": "video",
+              "title": "Creative VFX: Self-Performed Mini Scene",
+              "url": "https://youtu.be/n4JIEiK4xcg"
+            }
+          ]
+        },
+        {
+          "id": "logo-composite-animated-reveal-in-live-action",
+          "title": "Logo Composite: Animated Reveal in Live Action.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Eight-second animated logo reveal composited into live action. I tracked the mark to motion, used rotoscoping for occlusion, matched color and lighting, and transitioned to an illustrated end card. Tagline writes on with synced sound effects."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tools: After Effects."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: demonstrate precise tracking, clear timing, and brand-consistent motion for accessible, professional results overall."
+            },
+            {
+              "type": "video",
+              "title": "Logo Composite: Animated Reveal in Live Action",
+              "url": "https://youtu.be/i5RuzpSU_CQ"
+            }
+          ]
+        },
+        {
+          "id": "dead-pixel-motion-metaphor",
+          "title": "Dead Pixel: Motion Metaphor.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Animated an antithesis metaphor: a living pixel grid zooms to one pixel that glitches and dies, then resolves into the \"X\" of DEAD PIXEL. Vector-only shapes, text, and effects in After Effects with timing/ease, anticipation, motion, and sound sync."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tools: After Effects, Adobe Audition."
+            },
+            {
+              "type": "paragraph",
+              "text": "Purpose: practice visual rhetoric and motion principles for UI feedback."
+            },
+            {
+              "type": "video",
+              "title": "Dead Pixel: Motion Metaphor",
+              "url": "https://youtu.be/7uC8fZMI09E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "marketing-campaign",
+      "title": "Ford Bronco Campaign",
+      "subtitle": "Creative brief & execution",
+      "meta": {
+        "tags": ["Creative Strategy", "Campaign Design", "Marketing", "2025"]
+      },
+      "hero": {
+        "media": {
+          "display": "single",
+          "items": [
+            {
+              "src": "assets/images/project10/hero-01.avif",
+              "alt": "Ford Bronco 60th anniversary campaign hero billboard."
+            }
+          ]
+        }
+      },
+      "sections": [
+        {
+          "id": "about-project",
+          "title": "About the project.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This project explores the full creative process, from strategy to execution, by developing a campaign for the Ford Bronco's 60th anniversary. Starting from a client request, the work translates business goals into a structured creative brief and communications framework, followed by the design of a campaign identity and key marketing assets."
+            },
+            {
+              "type": "paragraph",
+              "text": "The final outcome includes a modern-vintage logo, a large-scale billboard concept, and a series of social media assets, all aligned under a unified campaign message."
+            }
+          ]
+        },
+        {
+          "id": "role-scope",
+          "title": "My role & scope.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This was a collaborative project where I contributed to both strategy and creative execution. My role included developing parts of the creative brief, shaping campaign direction, and designing visual outputs including the logo and campaign assets."
+            },
+            {
+              "type": "paragraph",
+              "text": "I worked across research, concept development, and visual design to ensure alignment between strategy and final deliverables."
+            },
+            {
+              "type": "pillList",
+              "items": ["Creative Strategy", "Brand Campaign", "Budgeting", "Visual Design", "Logo Design", "Campaign Design", "Advertising", "Comms Framework"]
+            }
+          ]
+        },
+        {
+          "id": "problem-challenge",
+          "title": "Problem & challenge.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The Ford Bronco has a strong heritage but lacks relevance among younger Canadian audiences. The challenge was to reposition the brand to feel modern and culturally relevant while preserving its legacy and authenticity."
+            },
+            {
+              "type": "paragraph",
+              "text": "Additionally, the campaign needed to address practical barriers, such as cost perception and competition, while differentiating the Bronco in a saturated market of adventure vehicles. The solution required balancing nostalgia with innovation, appealing to multiple generations, and translating strategy into a cohesive creative direction."
+            },
+            {
+              "type": "media",
+              "display": "single",
+              "items": [
+                {
+                  "src": "assets/images/project10/problem&challenge-01.avif",
+                  "alt": "Ford Bronco campaign problem and challenge board."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "strategy-creative-framework",
+          "title": "Strategy & Creative Framework.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The project began with a structured 10-point creative brief supported by a GET/WHO/TO/BY insight statement. This framework defined the audience, clarified the communication goal, and aligned creative decisions with business objectives."
+            },
+            {
+              "type": "paragraph",
+              "text": "A communications framework mapped user barriers across the journey, from awareness to purchase, and connected them to targeted channels such as OOH, social media, and long-form video. This ensured that each touchpoint addressed specific user needs and motivations."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project10/strategy-01.avif",
+                  "alt": "Ford Bronco campaign strategy board one."
+                },
+                {
+                  "src": "assets/images/project10/strategy-02.avif",
+                  "alt": "Ford Bronco campaign strategy board two."
+                },
+                {
+                  "src": "assets/images/project10/strategy-03.avif",
+                  "alt": "Ford Bronco campaign strategy board three."
+                },
+                {
+                  "src": "assets/images/project10/strategy-04.avif",
+                  "alt": "Ford Bronco campaign strategy board four."
+                },
+                {
+                  "src": "assets/images/project10/strategy-05.avif",
+                  "alt": "Ford Bronco campaign strategy board five."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "audience-positioning",
+          "title": "Audience & Positioning.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The campaign targets a broad but unified audience defined by mindset rather than demographics: individuals drawn to adventure, authenticity, and self-expression."
+            },
+            {
+              "type": "paragraph",
+              "text": "Primary audiences include Gen Z and Millennials seeking freedom and identity-driven products, while secondary audiences (Gen X) connect through nostalgia and heritage. The Bronco is positioned as the \"Original Adventure Icon,\" offering both legacy and modern capability."
+            }
+          ]
+        },
+        {
+          "id": "creative-execution",
+          "title": "Creative Execution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The execution phase translated strategy into a cohesive campaign system."
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "Social Media Campaign: a series of platform-specific assets encourages user participation through storytelling and UGC, using prompts like \"Show us where you went off-script\" to build engagement and community.",
+                "Logo Design: a modern-vintage logo blends heritage and energy through bold shapes, a bucking horse symbol, and a color palette that balances warmth and strength. The \"60\" is subtly integrated into the design, reinforcing the anniversary concept.",
+                "OOH Billboard: a large-scale digital billboard designed for Sankofa Square uses dramatic composition and bold typography to communicate the campaign message \"Go Where GPS Gives Up,\" capturing attention in a high-traffic urban setting."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Together, these assets create a unified campaign that bridges digital and physical spaces."
+            },
+            {
+              "type": "media",
+              "display": "carousel",
+              "items": [
+                {
+                  "src": "assets/images/project10/creativeExecution-01.avif",
+                  "alt": "Ford Bronco creative execution board one."
+                },
+                {
+                  "src": "assets/images/project10/creativeExecution-02.avif",
+                  "alt": "Ford Bronco creative execution board two."
+                },
+                {
+                  "src": "assets/images/project10/creativeExecution-03.avif",
+                  "alt": "Ford Bronco creative execution board three."
+                },
+                {
+                  "src": "assets/images/project10/creativeExecution-04.avif",
+                  "alt": "Ford Bronco creative execution board four."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "title": "Solution.",
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The final solution is a fully integrated campaign that connects strategic thinking with creative execution. By aligning audience insights, brand positioning, and visual storytelling, the campaign successfully reframes the Ford Bronco as both a heritage icon and a modern lifestyle choice."
+            },
+            {
+              "type": "paragraph",
+              "text": "The system works across multiple touchpoints: logo, OOH, and social, creating a consistent and engaging experience that drives awareness, participation, and brand relevance."
+            },
+            {
+              "type": "paragraph",
+              "text": "This project demonstrates the ability to move from structured strategy to impactful design, ensuring that every creative decision is grounded in insight and purpose."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

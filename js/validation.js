@@ -120,7 +120,7 @@ function initializeValidation() {
     };
 
     // Handle form submission
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
         e.preventDefault();
         console.log('[Form] Submit triggered');
         let isValid = true;
@@ -166,52 +166,53 @@ function initializeValidation() {
             console.log('[Fetch] Sending to', form.action);
             console.log('[Fetch] Payload:', Object.fromEntries(formData));
 
-            fetch(form.action, {
-                method: 'POST',
-                body: formData,
-            })
-                .then(response => {
-                    console.log(`[Fetch] Response status: ${response.status} ${response.statusText}`);
-                    return response.json();
-                })
-                .then(data => {
-                    console.log('[Fetch] Response body:', data);
-                    if (!data.success) throw new Error(data.message || 'Submission failed');
-
-                    console.log('[Form] Success — resetting form and showing popup');
-                    form.reset();
-
-                    if (successPopup) {
-                        openSuccessPopup();
-
-                        const successDetails = document.querySelector('.success-details');
-                        if (successDetails) {
-                            successDetails.innerHTML = `<strong>${escapeHtml(firstName)}</strong>, I'm excited to hear from you! I'll review your message and get in touch at <strong>${escapeHtml(email)}</strong> to discuss your project and the next steps.`;
-                        }
-
-                        if (successSound) {
-                            successSound.currentTime = 0;
-                            successSound.play().catch(err => console.log('Sound play failed:', err));
-                        }
-                    }
-
-                    formFields.forEach(field => {
-                        field.parentElement.classList.remove('error', 'focused');
-                    });
-                })
-                .catch(error => {
-                    console.error('[Fetch] Error:', error);
-                    alert(error.message || 'Something went wrong. Please try again or email directly.');
-                })
-                .finally(() => {
-                    console.log('[Form] Resetting button state');
-                    submitBtn.disabled = false;
-                    submitBtn.textContent = 'Submit';
-                    if (typeof turnstile !== 'undefined' && turnstileWidgetId !== null) {
-                        console.log('[Turnstile] Resetting widget');
-                        turnstile.reset(turnstileWidgetId);
-                    }
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
                 });
+                console.log(`[Fetch] Response status: ${response.status} ${response.statusText}`);
+
+                const data = await response.json();
+                console.log('[Fetch] Response body:', data);
+                if (!data.success) throw new Error(data.message || 'Submission failed');
+
+                console.log('[Form] Success — resetting form and showing popup');
+                form.reset();
+
+                if (successPopup) {
+                    openSuccessPopup();
+
+                    const successDetails = document.querySelector('.success-details');
+                    if (successDetails) {
+                        successDetails.innerHTML = `<strong>${escapeHtml(firstName)}</strong>, I'm excited to hear from you! I'll review your message and get in touch at <strong>${escapeHtml(email)}</strong> to discuss your project and the next steps.`;
+                    }
+
+                    if (successSound) {
+                        successSound.currentTime = 0;
+                        try {
+                            await successSound.play();
+                        } catch (error) {
+                            console.log('Sound play failed:', error);
+                        }
+                    }
+                }
+
+                formFields.forEach(field => {
+                    field.parentElement.classList.remove('error', 'focused');
+                });
+            } catch (error) {
+                console.error('[Fetch] Error:', error);
+                alert(error.message || 'Something went wrong. Please try again or email directly.');
+            } finally {
+                console.log('[Form] Resetting button state');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit';
+                if (typeof turnstile !== 'undefined' && turnstileWidgetId !== null) {
+                    console.log('[Turnstile] Resetting widget');
+                    turnstile.reset(turnstileWidgetId);
+                }
+            }
         } else if (firstInvalidField) {
             // Smoothly scroll to and focus the first invalid field
             firstInvalidField.scrollIntoView({ behavior: 'smooth', block: 'center' });
